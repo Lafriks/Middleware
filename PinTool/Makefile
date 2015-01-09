@@ -1,4 +1,4 @@
-PREFIX = /opt/latvia-eid
+PREFIX = ${INSTDIR}/opt/latvia-eid
 FULLNAME = otlv-pintool
 
 WX_CFLAGS = -I../wxWidgets/lib/wx/include/gtk2-unicode-static-2.9 -I../wxWidgets/include/wx-2.9 -D_FILE_OFFSET_BITS=64 -DwxDEBUG_LEVEL=0 -D__WXGTK__ -pthread
